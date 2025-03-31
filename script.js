@@ -21,9 +21,7 @@ for (const button of buttons) {
   // }
 
   //
-  ["click", "touchstart"].forEach((event) =>
-    button.addEventListener(event, handleButtonClick)
-  );
+  button.addEventListener('click', handleButtonClick)
 }
 
 // buttons.forEach((button) => {
